@@ -21,6 +21,3 @@ sed -i 's/^\(.*99999\)/#&/' package/lean/default-settings/files/zzz-default-sett
 
 # 拉取luci-app-smartdns插件
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns package/lienol/luci-app-smartdns
-
-# 安装k3
-sed -i 's|^TARGET_|# TARGET_|g; s|# TARGET_DEVICES += phicomm-k3|TARGET_DEVICES += phicomm-k3|' target/linux/bcm53xx/image/Makefile
