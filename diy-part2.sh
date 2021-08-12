@@ -20,7 +20,7 @@ sed -i 's/^\(.*99999\)/#&/' package/lean/default-settings/files/zzz-default-sett
 #rm -rf package/lean/trojan
 
 # 拉取sensecluci-app-udp2raw插件
-git clone https://github.com/sensec/luci-app-udp2raw.git package/lean
+git clone https://github.com/sensec/luci-app-udp2raw.git package/luci-app-udp2raw
 
 # 拉取sensecluci-app-udp2raw-control插件
-git clone https://github.com/sensec/openwrt-udp2raw.git package/lean
+git clone https://github.com/sensec/openwrt-udp2raw.git package/openwrt-udp2raw
