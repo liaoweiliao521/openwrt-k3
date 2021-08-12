@@ -19,5 +19,8 @@ sed -i 's/^\(.*99999\)/#&/' package/lean/default-settings/files/zzz-default-sett
 # 删除原版trojan插件
 #rm -rf package/lean/trojan
 
-# 拉取luci-app-smartdns插件
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns package/lienol/luci-app-smartdns
+# 拉取sensecluci-app-udp2raw插件
+git clone https://github.com/sensec/luci-app-udp2raw.git package/lean
+
+# 拉取sensecluci-app-udp2raw-control插件
+git clone https://github.com/sensec/openwrt-udp2raw.git package/lean
