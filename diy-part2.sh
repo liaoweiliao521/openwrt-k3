@@ -24,3 +24,9 @@ git clone https://github.com/sensec/openwrt-udp2raw.git package/openwrt-udp2raw
 
 # 拉取openwrt-passwall插件
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+
+# 拉取luci-app-speederv2插件
+git clone https://github.com/halldong/luci-app-speederv2.git package/luci-app-speederv2
+
+# 拉取openwrt-udpspeeder插件
+git clone https://github.com/pexcn/openwrt-udpspeeder.git package/openwrt-udpspeeder
