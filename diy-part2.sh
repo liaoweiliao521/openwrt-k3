@@ -20,7 +20,7 @@
 git clone https://github.com/sensec/luci-app-udp2raw.git package/luci-app-udp2raw
 
 # 拉取sensecluci-app-udp2raw-control插件
-git clone https://github.com/sensec/openwrt-udp2raw.git package/openwrt-udp2raw
+#git clone https://github.com/sensec/openwrt-udp2raw.git package/openwrt-udp2raw
 
 # 拉取openwrt-passwall插件
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
