@@ -29,4 +29,4 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-pass
 git clone https://github.com/halldong/luci-app-speederv2.git package/luci-app-speederv2
 
 # 拉取openwrt-udpspeeder插件
-git clone https://github.com/liaoweiliao521/openwrt-udp2raw-speeder.git package/openwrt-udpspeeder
+git clone https://github.com/WouldChar/openwrt-udp2raw-speeder.git package/openwrt-udpspeeder
