@@ -30,3 +30,6 @@ git clone https://github.com/halldong/luci-app-speederv2.git package/luci-app-sp
 
 # 拉取openwrt-udpspeeder插件
 git clone https://github.com/WouldChar/openwrt-udp2raw-speeder.git package/openwrt-udpspeeder
+
+# 拉取install-program插件
+git clone https://github.com/tuanqing/install-program.git package/install-program
