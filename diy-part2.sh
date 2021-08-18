@@ -16,14 +16,8 @@
 # 取消Lean大登陆密码
 sed -i 's/^\(.*99999\)/#&/' package/lean/default-settings/files/zzz-default-settings
 
-# 删除feeds自带udpspeeder
-rm -rf package/feeds/packages/udpspeeder
-
 # 拉取install-program插件
 git clone https://github.com/tuanqing/install-program.git package/install-program
-
-# 拉取openwrt-udpspeeder插件
-git clone https://github.com/WouldChar/openwrt-udp2raw-speeder.git package/openwrt-udpspeeder
 
 # 拉取luci-app-speederv2插件
 git clone https://github.com/halldong/luci-app-speederv2.git package/luci-app-speederv2
@@ -32,7 +26,7 @@ git clone https://github.com/halldong/luci-app-speederv2.git package/luci-app-sp
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 
 # 拉取sensecluci-app-udp2raw-control插件
-#git clone https://github.com/sensec/openwrt-udp2raw.git package/openwrt-udp2raw
+git clone https://github.com/sensec/openwrt-udp2raw.git package/openwrt-udp2raw
 
 # 拉取sensecluci-app-udp2raw插件
 git clone https://github.com/sensec/luci-app-udp2raw.git package/luci-app-udp2raw
