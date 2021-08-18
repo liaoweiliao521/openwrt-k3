@@ -13,8 +13,11 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
 
+# 删除feeds里的udpspeeder
+rm -rf package/feeds/packages/udpspeeder
+
 # 取消Lean大登陆密码
-#sed -i 's/^\(.*99999\)/#&/' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/^\(.*99999\)/#&/' package/lean/default-settings/files/zzz-default-settings
 
 # 拉取sensecluci-app-udp2raw插件
 git clone https://github.com/sensec/luci-app-udp2raw.git package/luci-app-udp2raw
