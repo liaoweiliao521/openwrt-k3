@@ -16,9 +16,6 @@
 # 取消Lean大登陆密码
 sed -i 's/^\(.*99999\)/#&/' package/lean/default-settings/files/zzz-default-settings
 
-# 拉取install-program插件
-git clone https://github.com/tuanqing/install-program.git package/install-program
-
 # 拉取luci-app-speederv2插件
 git clone https://github.com/halldong/luci-app-speederv2.git package/luci-app-speederv2
 
