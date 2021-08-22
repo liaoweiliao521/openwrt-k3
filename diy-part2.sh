@@ -14,7 +14,7 @@
 #sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
 
 # 取消Lean大登陆密码
-sed -i 's/^\(.*99999\)/#&/' package/lean/default-settings/files/zzz-default-settings
+#sed -i 's/^\(.*99999\)/#&/' package/lean/default-settings/files/zzz-default-settings
 
 # 拉取luci-app-speederv2插件
 git clone https://github.com/halldong/luci-app-speederv2.git package/luci-app-speederv2
