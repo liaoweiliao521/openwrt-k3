@@ -29,7 +29,7 @@ git clone https://github.com/sensec/openwrt-udp2raw.git package/openwrt-udp2raw
 git clone https://github.com/sensec/luci-app-udp2raw.git package/luci-app-udp2raw
 
 # 拉取luci-app-smartdns插件
-git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+#git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
 # 拉取openwrt-smartdns插件
-git clone https://github.com/pymumu/openwrt-smartdns.git package/openwrt-smartdns
+#git clone https://github.com/pymumu/openwrt-smartdns.git package/openwrt-smartdns
