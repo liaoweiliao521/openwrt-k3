@@ -17,7 +17,7 @@
 #sed -i 's/^\(.*99999\)/#&/' package/lean/default-settings/files/zzz-default-settings
 
 # 拉取luci-app-speederv2插件
-git clone https://github.com/halldong/luci-app-speederv2.git package/luci-app-speederv2
+#git clone https://github.com/halldong/luci-app-speederv2.git package/luci-app-speederv2
 
 # 拉取openwrt-passwall插件
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
